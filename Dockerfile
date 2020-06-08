@@ -1,7 +1,7 @@
 
 FROM ubuntu
 
-MAINTAINER pavanwankhade4u@gmail.com
+MAINTAINER gaikwadruchika53@gmail.com
 
 RUN apt-get update
 
