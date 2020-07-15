@@ -1,11 +1,7 @@
 
-FROM ubuntu
+FROM docker.io/httpd
 
-MAINTAINER gaikwadruchika53@gmail.com
+MAINTAINER Ruchika
 
-RUN apt-get update
-
-RUN apt-get install openjdk -y
-
-RUN echo "WELCOME" > /var/test.doc
+CMD echo "welcome in dockerfile" > /var/www/html/index.html
 
